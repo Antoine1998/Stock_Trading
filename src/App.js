@@ -8,8 +8,8 @@ function App() {
     <main className="containers">
       <Router>
         <Routes>
-            <Route path="/" element={<StockOverViewPage />} />
-          <Route path="/detail/:symbol" element={<StockDetailPage />} />
+            <Route path="/Stock_Trading/" element={<StockOverViewPage />} />
+          <Route path="/Stock_Trading/detail/:symbol" element={<StockDetailPage />} />
         </Routes>
       </Router>
     </main>
