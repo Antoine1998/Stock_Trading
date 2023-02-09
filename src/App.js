@@ -9,7 +9,6 @@ function App() {
       <Router>
         <Routes>
             <Route path="/" element={<StockOverViewPage />} />
-
           <Route path="/detail/:symbol" element={<StockDetailPage />} />
         </Routes>
       </Router>
